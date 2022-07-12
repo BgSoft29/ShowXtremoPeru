@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="image/Logo.jpeg">
+    <title>Show Xtremo Perú</title>
+    
     <link
   rel="stylesheet"
   href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
@@ -27,10 +29,10 @@
       <a href="#welcome-section">Inicio</a>
     </li>
     <li>
-      <a href="#projects">Sobre Nosotros</a>
+      <a href="#projects">Cronograma</a>
     </li>
     <li>
-      <a href="#contact">Contáctanos</a>
+      <a href="#contact">Contacto</a>
     </li>
   </ul>
 </nav>
@@ -41,8 +43,9 @@
 
 <section id="welcome-section" class="welcome-section">
   <h1>Show Xtremo</h1>
-  <p>PERÚ</p>
-  <a href="https://www.joinnus.com/events/festivales/oxapampa-showxtremoperu-48477" target="_blank">Compra tus entradas aquí</a>
+  <p>OXAPAMPA-PERÚ</p>
+  <p id="fecha">28 y 29 de julio</p>
+  <a class="masInfo" href="#contact">Más Información</a>
 </section>
 
 <!-- END WELCOME SECTION -->
@@ -50,106 +53,24 @@
 <!-- START PROJECTS SECTION -->
 
 <section id="projects" class="projects-section">
-  <h2 class="projects-section-header">These are some of my projects</h2>
+  <h2 class="projects-section-header">Cronograma</h2>
 
-  <div class="projects-grid">
-    <a
-      href="https://codepen.io/freeCodeCamp/full/zNqgVx"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
-        alt="project"
-      />
-      <p class="project-title">
-        <span class="code">&lt;</span>
-        Tribute Page
-        <span class="code">&#47;&gt;</span>
-      </p>
-    </a>
-    <a
-      href="https://codepen.io/freeCodeCamp/full/qRZeGZ"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
-        alt="project"
-      />
-      <p class="project-title">
-        <span class="code">&lt;</span>
-        Random Quote Machine
-        <span class="code">&#47;&gt;</span>
-      </p>
-    </a>
-    <a
-      href="https://codepen.io/freeCodeCamp/full/wgGVVX"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
-        alt="project"
-      />
-      <p class="project-title">
-        <span class="code">&lt;</span>
-        JavaScript Calculator
-        <span class="code">&#47;&gt;</span>
-      </p>
-    </a>
-    <a
-      href="https://codepen.io/freeCodeCamp/full/mVEJag"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
-        alt="project"
-      />
-      <p class="project-title">
-        <span class="code">&lt;</span>
-        Map Data Across the Globe
-        <span class="code">&#47;&gt;</span>
-      </p>
-    </a>
-    <a
-      href="https://codepen.io/freeCodeCamp/full/wGqEga"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
-        alt="project"
-      />
-      <p class="project-title">
-        <span class="code">&lt;</span>
-        Wikipedia Viewer
-        <span class="code">&#47;&gt;</span>
-      </p>
-    </a>
-    <a
-      href="https://codepen.io/freeCodeCamp/full/KzXQgy"
-      target="_blank"
-      class="project project-tile"
-    >
-      <img
-        class="project-image"
-        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
-        alt="project"
-      />
-      <p class="project-title">
-        <span class="code">&lt;</span>
-        Tic Tac Toe Game
-        <span class="code">&#47;&gt;</span>
-      </p>
-    </a>
+  <div class="banners">
+    <div class="banners-item">
+      <img src="image/Baner 1.jpeg" alt="Banner1">
+    </div>
+    <div class="banners-item">
+      <img src="image/Baner 3.png" alt="Banner3">
+    </div>
+    <div class="banners-item">
+      <img src="image/Baner 4.jpeg" alt="Banner4">
+    </div>
+    <div class="banners-item2">
+      <img src="image/Baner 2.png" alt="Banner2">
+    </div>
   </div>
+
+
 
   <a
     href="https://codepen.io/FreeCodeCamp/"
@@ -219,6 +140,26 @@
     ></a>
   </p>
 </footer>
+
+<!-- Para boton de chat -->
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          call: "+51 903 305 480", // Call phone number
+          whatsapp: "+51 924 946 190", // WhatsApp number
+          call_to_action: "Contáctanos", // Call to action
+          button_color: "#000000", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "call,whatsapp", // Order of buttons
+      };
+      var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /GetButton.io widget -->
     
 </body>
 </html>
